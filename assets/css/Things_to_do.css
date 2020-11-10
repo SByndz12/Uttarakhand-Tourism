@@ -1,6 +1,46 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
 
+body{
+	font-family: sans-serif;
+	margin: 20px 40px;
+   }
+
+#mainbox{
+ font-size: 24px;
+ cursor: pointer;
+ transition: all .6s;
+}
+.sidemenu{
+ position: fixed;
+ top: 0px;
+ left: 0px;
+ height: 100%;
+ width: 0px;
+ background-color: #222;
+ z-index: 1;
+ padding-top: 100px;
+ overflow-x: hidden;
+ transition: all .5s;
+}
+.sidemenu a{
+ padding: 8px 8px 8px 64px;
+ text-decoration: none;
+ font-size: 20px;
+ color: #999;
+ display: block;
+}
+.sidemenu a:hover{
+  color: white;
+}
+.sidemenu .closebtn{
+ position: absolute;
+ top: 0px;
+ right: 25px;
+ font-size: 36px;
+ margin-left: 32px;
+}
+
 /*
 	Directive by HTML5 UP
 	html5up.net | @ajlkn
@@ -73,40 +113,6 @@ input, select, textarea {
 	appearance: none;
 }
 
-#mainbox{
-	font-size: 24px;
-	cursor: pointer;
-	transition: all .6s;
-   }
-   .sidemenu{
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	height: 100%;
-	width: 0px;
-	background-color: rgb(14, 13, 13);
-	z-index: 1;
-	padding-top: 100px;
-	overflow-x: hidden;
-	transition: all .5s;
-   }
-   .sidemenu a{
-	padding: 8px 8px 8px 64px;
-	text-decoration: none;
-	font-size: 20px;
-	color: rgb(245, 239, 239);
-	display: block;
-   }
-   .sidemenu a:hover{
-	 color:rgb(19, 18, 18);
-   }
-   .sidemenu .closebtn{
-	position: absolute;
-	top: 0px;
-	right: 25px;
-	font-size: 36px;
-	margin-left: 32px;
-   }
 
 /* Basic */
 
