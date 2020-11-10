@@ -12,6 +12,26 @@
 		<link rel="stylesheet" href="assets/css/Articles.css" />
 	</head>
 	<body>
+		<div id="mainbox" onclick="openFunction()">&#9776;</div>
+          <div id="menu" class="sidemenu">
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="Things_to_do.html">THINGS TO DO</a></li>
+			<li><a href="Destinations.html">DESTINATIONS</a></li>
+			<li><a href="Articles_and_Reports.html">ARTICLES AND REPORTS</a></li>
+		  <a href="#" class="closebtn" onclick="closeFunction()">&times;</a>
+		</div>
+		<script type="text/javascript">
+			function openFunction(){
+			 document.getElementById("menu").style.width="300px";
+			 document.getElementById("mainbox").style.marginLeft="300px";
+			 document.getElementById("mainbox").innerHTML="";
+			}
+		   function closeFunction(){
+			document.getElementById("menu").style.width="0px";
+			document.getElementById("mainbox").style.marginLeft="0px";
+			document.getElementById("mainbox").innerHTML="&#9776;";
+		   }
+		</script>
 
 		<!-- Header -->
 			<header id="header">
