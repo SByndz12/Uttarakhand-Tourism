@@ -28,11 +28,11 @@
 	padding: 8px 8px 8px 64px;
 	text-decoration: none;
 	font-size: 20px;
-	color: rgb(20, 15, 15);
+	color: rgb(245, 239, 239);
 	display: block;
    }
    .sidemenu a:hover{
-	 color:rgb(245, 239, 239);
+	 color:rgb(19, 18, 18);
    }
    .sidemenu .closebtn{
 	position: absolute;
